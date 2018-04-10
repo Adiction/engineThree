@@ -12,6 +12,7 @@ class MyScene extends Scene {
 let context = document.createElement ("canvas");
 
 console.log(document);
+console.log("hola alba";)
 let game = new Game ({});
 game.setContext(context);
 game.getSceneManager().loadScene(new MyScene(), (p) => console.log("Another callback: " + p))
